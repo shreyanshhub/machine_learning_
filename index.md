@@ -3,6 +3,8 @@
 </script>
 
 # Principal Component Analysis (PCA)
+$$ E = mc^2 $$
+
 
 ## Introduction
 Unsupervised learning, specifically "representation learning," is a subset of 
