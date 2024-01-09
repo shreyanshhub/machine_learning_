@@ -161,7 +161,7 @@ where "*loss*" is the average of all the "*errors*" when projecting outliers ont
 
 ### Error Vector has Information 
 
-![](./img/ErrorVector.svg)
+![](./docs/PCA/img/ErrorVector.svg)
 
 Our hypothesis was that there is a line which best represents the data but , if all the 
 data points lied along a plane then this part (dotted orange lines) which we are imagining to be error may not be 
@@ -183,7 +183,7 @@ also contain some information.
         from the points.
 
 ## Principal Component Analysis (1)
-![](./img/ErrorVector2.svg)
+![](./docs/PCA/img/ErrorVector2.svg)
 
 From the algorithm above we can find a $w_2$ vector which represents the line
 which passes through the "error/residues" generated while finding out $w_1$.
@@ -298,7 +298,7 @@ where , $\lambda_i$ are the eigenvalues of the covariance matrix .
 For an arbitrary set of points $(\{(x_1^Tw) , (x_2^Tw) ...... (x_n^T)w   \})$
 projected onto line represented by vector $w$.
 
-![](img/VarianceIsLambda.svg)
+![](./docs/PCAimg/VarianceIsLambda.svg)
 
 The average $\mu$ of the projected points will be $\frac{1}{n}\sum_{i=1}^{n}(x_i^Tw)$.
 If the data is centered then,
